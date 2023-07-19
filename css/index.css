@@ -1,0 +1,184 @@
+body{
+    /* display: grid; */
+    background-color: #D3D3D3;
+}
+
+.navbar{
+    display: flex;
+    background-color: #014421;
+    margin: none;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+/*------------------------------------------*/
+button {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 17px;
+    height: 50px;
+    width: 100px;
+    font-weight: 500;
+    background: #ff6600;
+    color: white;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.6em;
+  }
+  
+  .gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0.6em;
+    margin-top: -0.25em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  }
+  
+  .label {
+    position: relative;
+    top: -1px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .transition {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 500ms;
+    background-color:#ff8c00;
+    border-radius: 9999px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  button:hover .transition {
+    width: 14em;
+    height: 14em;
+  }
+  
+  button:active {
+    transform: scale(0.97);
+  }
+/*------------------------------------------*/
+.image{
+    height: 70px;
+    width: 70px;
+}
+
+.content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title{
+    color: #d6c4b0;
+    font-size: 40px;
+}
+
+.empty{
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.order{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.orderButton{
+    font-size: 40px;
+    width: fit-content;
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    box-shadow: inset;
+    transition-duration: 0.2s;
+}
+
+.orderButton:hover{
+    background-color: Green;
+    color: white;
+}
+
+.menu{
+    width: 45%;
+}
+
+.menu2{
+    text-align: center;
+}
+
+.about{
+    width: 800px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 300px){
+    .about{
+        font-size: 12px;
+    }
+}
+
+.mainPage{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacts{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.contactTitle{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.closer{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
+
+.car{
+    display: flex;
+    justify-content: center;
+}
+
+.carFrame{
+    width: 700px;
+    height: 575px;
+    border: none;
+}
+
+.customline{
+    background-color: #014421;
+    height: 5px;
+    width: 60%;
+}
